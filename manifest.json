@@ -1,0 +1,19 @@
+{
+  "name": "Medium Reader",
+  "description": "read medium article freely",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "charliemei",
+  "browser_action": {},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
