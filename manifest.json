@@ -6,7 +6,7 @@
   "author": "charliemei",
   "browser_action": {},
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["./background.js"],
     "persistent": true
   },
   "permissions": [
